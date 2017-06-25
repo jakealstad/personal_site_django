@@ -4,7 +4,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 DEBUG = False
 
-ALLOWED_HOSTS = ['localhost', 'https://jalstad.com']
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'https://jalstad.com']
 
 
 # Application definition
