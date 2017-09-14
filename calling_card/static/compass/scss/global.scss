@@ -1,0 +1,59 @@
+@import "compass/css3";
+@import url('https://fonts.googleapis.com/css?family=Raleway:200,400,700');
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+#wrapper {
+    margin: 0 auto;
+    text-align: center;
+    width: 75%;
+    &.homepage {
+	    margin: auto;
+	    position: absolute;
+	    text-align: center;
+	    top: 0;
+	    right: 0;
+	    bottom: 0;
+	    left: 0;
+	    height: 50%;
+	    width: 75%;
+	}
+	h1, h2 {
+	    font-weight: 400;
+	    text-rendering: optimizeLegibility;
+	}
+	p, ul {
+	    -webkit-font-smoothing: antialiased;
+	}
+	hr {
+	    border: none;
+	    height: 1px;
+	    color: #000;
+	    background-color: #111;
+	}
+	a {
+	    text-decoration: none;
+	    color: #777;
+	    :hover {
+		    color: #111;
+		}
+	}
+}
+
+.links {
+    list-style-type: none;
+    overflow: auto;
+    padding: 0;
+}
+
+.resume {
+    text-align: left !important;
+    hr {
+	    border: none;
+	    height: 1px;
+	    color: #000;
+	    background-color: #b8b8b8 !important;
+	}
+}

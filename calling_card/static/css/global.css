@@ -1,65 +1,68 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway:200,400,700');
-
+@import url("https://fonts.googleapis.com/css?family=Raleway:200,400,700");
+/* line 4, ../compass/scss/global.scss */
 body {
-    font-family: 'Raleway', sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 
+/* line 8, ../compass/scss/global.scss */
 #wrapper {
-    margin: 0 auto;
-    text-align: center;
-    width: 75%;
+  margin: 0 auto;
+  text-align: center;
+  width: 75%;
 }
-
+/* line 12, ../compass/scss/global.scss */
 #wrapper.homepage {
-    margin: auto;
-    position: absolute;
-    text-align: center;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    height: 50%;
-    width: 75%;
+  margin: auto;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 50%;
+  width: 75%;
 }
-
-#wrapper h1, h2 {
-    font-weight: 400;
-    text-rendering: optimizeLegibility;
+/* line 23, ../compass/scss/global.scss */
+#wrapper h1, #wrapper h2 {
+  font-weight: 400;
+  text-rendering: optimizeLegibility;
 }
-
-#wrapper p, ul {
-    -webkit-font-smoothing: antialiased;
+/* line 27, ../compass/scss/global.scss */
+#wrapper p, #wrapper ul {
+  -webkit-font-smoothing: antialiased;
 }
-
+/* line 30, ../compass/scss/global.scss */
 #wrapper hr {
-    border: none;
-    height: 1px;
-    color: #000;
-    background-color: #111;
+  border: none;
+  height: 1px;
+  color: #000;
+  background-color: #111;
 }
-
-.links {
-    list-style-type: none;
-    overflow: auto;
-    padding: 0;
-}
-
+/* line 36, ../compass/scss/global.scss */
 #wrapper a {
-    text-decoration: none;
-    color: #777;
+  text-decoration: none;
+  color: #777;
+}
+/* line 39, ../compass/scss/global.scss */
+#wrapper a :hover {
+  color: #111;
 }
 
-#wrapper a:hover {
-    color: #111;
+/* line 45, ../compass/scss/global.scss */
+.links {
+  list-style-type: none;
+  overflow: auto;
+  padding: 0;
 }
 
+/* line 51, ../compass/scss/global.scss */
 .resume {
-    text-align: left !important;
+  text-align: left !important;
 }
-
+/* line 53, ../compass/scss/global.scss */
 .resume hr {
-    border: none;
-    height: 1px;
-    color: #000;
-    background-color: #b8b8b8 !important;
+  border: none;
+  height: 1px;
+  color: #000;
+  background-color: #b8b8b8 !important;
 }
